@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+     <!-- Custom styles for this template -->
+     <link href="css/carousel.css" rel="stylesheet">
+     <link href="features.css" rel="stylesheet">
+     <!--Custom styles for this template-->
+     <!-- Custom styles for this template -->
+    <link href="heroes.css" rel="stylesheet">
+    <title>Document</title>
+<style>
+body{
+    background-image: url(background2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }  
+      }
+      .b-example-vr{
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi{
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+      .nav-scroller .nav{
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .bd-mode-toggle .{
+        z-index:1500;
+      }
+      
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+      .overlay-dark::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0,0,0,0.5);
+        z-index: 1;
+      }
+</style>
+</head>
+<body class="text-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PT.BEAUTY PLUS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="galery.html">Galery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Logout</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+  </nav>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay-dark">
+              <img src="File company profile/img/brand/Untitled.jpeg" style="width 150%;" width="100%"; 
+             alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-white text-start">
+                <h1>Pabrik Kosmetik dan Skincare Terbaik</h1>
+                <p>Tertarik dengan bisnis kosmetik dan skincare?? Yuk, Konsultasi bersama PT.Kosmetik Indonesia</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+              <img src="File company profile/7564615.jpg" style="width 150%;" alt="" width="100% height=100%">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Punya Masalah Kulit Kering atau Berjerawat?</h1>
+                <p>Temukan solusinya dengan produk skincare kami yang telah terbukti ampuh.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+            <img src="File company profile/7635545.jpg" style="width 150%;" alt="" width="100%" height="100%">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Bingung Dengan Produk Kami ?</h1>
+                 <p>Tersedia dalam berbagai varian untuk memenuhi kebutuhan kulit normal, 
+                  kering, berminyak dan sensitiv</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="container mt-3">
+        </div>
+        <h2 class="text-center">Sejarah Perusahaan</h2>
+        <p class="text-center">La Tulipe Cosmetiques diciptakan untuk memelihara kecantikan alami dan 
+          mempercantik setiap wanita yang mengenal produk kami. Didirikan pada tahun 1980, 
+          La Tulipe Cosmetiques berawal dari sebuah ide sederhana: kosmetik yang menekankan faktor 
+          efektivitas dan tidak mudah menimbulkan efek samping yang negative serta sesuai dengan iklim 
+          tropis. Untuk mewujudkan itu, konsultan medis La Tulipe Cosmetiques Alm. Prof. Dr. Indro 
+          Handojo, dr, SpPK (KAI, KPT-I) melakukan uji klinis dan Patch Test (uji tempel kulit) terhadap 
+          produk-produk awal. Hasil penelitian tersebut kemudian dipublikasikan di majalah-majalah 
+          kedokteran dan farmasi pada tahun 1985. Nama La Tulipe Cosmetiques sendiri diambil dari 
+          bahasa Perancis, negara yang merupakan pusat mode dan kecantikan dunia. “Tulipe” adalah 
+          nama bunga indah yang berdiri tegak (kencang) dan tidak mudah layu (keriput). Begitu pula 
+          harapan bagi pengguna kosmetik La Tulipe.</p>
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom text-center">Feature</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center bg-gradient fs-2 mb-3">
+                  <img src="File company profile/img/brand/6.jpeg" width: 45%;  alt="" auto;>
+                </div>
+                <body class="text-white">
+                <h3 class="fs-2 text-white">Formula Unik</h3>
+                <p>Formula Produk kosmetik kamu dijamin tidak akan sama dengan brand lain yang ada di pasaran.
+                  Formula yang kami buat untuk kamu, unik eksekutif dan spesial</p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center bg-gradient  fs-2 mb-3">
+                  <img src="File company profile/penghrggn2.jpeg" width: "45%"; alt="" auto;>
+                </div>
+                <h3 class="fs-2 text-white">R&D Berpengalaman</h3>
+                <p>Kami mampu mewujudkan konsep kosmetik & skincare kamu menjadi produk yang aman dipasaran</p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center bg-gradient fs-2 mb-3">
+                  <img src="File company profile/img/brand/7.jpeg"  width: 65%; alt="" auto;> 
+                </div>
+                <h3 class="fs-2 text-white">Jaminan kualitas</h3>
+                <p>Kami hasilkan produk kosmetik yang memiliki kualitas yang sudah memenuhi </p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+    </div>
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="File company profile/gedung 2.png" class="d-block mx-lg-auto img-fluid" 
+          alt="Bootstrap Themes" 
+          width="500" height="3500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Us</h1>
+          <p class="display-7 fw-bold text-body-emphasis lh-1 mb-5">PT.Kosmetik Indonesia merupakan Perusahaan manufaktur kosmetik terbesar di Jawa ini,
+            Indonesia. Telah memproduksi banyak merk-merk skincare dan kosmetik unggulan tidak kurang dari 150 brand.
+            Dibentuk dan dikembangkan oleh tenaga ahli yang berpengalaman dan didukung dengan karyawan-karyawan muda
+            dengan semangat tinggi dan inovatif.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">CONTACT US</h1>
+          <p class="col-lg-10 fs-4">Jika anda masih memiliki pertanyaan yang belum terjawab,
+            kami dapat memberikan layanan konsultasi gratis bagi anda. Jangan ragu hubungi kami,
+            tim marketing kami sangat terbuka dan siap melayani semua kebutuhan anda akan produk 
+            kosmetik yang berkualitas.
+          </p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-gradient">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+            <hr class="my-4">
+            <small class="text-white">By clicking Sign up, you agree to the terms of use.</small>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+       <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+  </footer>
+    </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
